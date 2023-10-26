@@ -1,0 +1,44 @@
+from google.colab import files
+try:
+  uploaded_file = files.upload()
+  # Verifica se o arquivo foi carregado corretamente
+  if len(uploaded_file) > 0:
+    print('Importação concluída com sucesso')
+  else:
+    print('Falha na importação')
+except Exception as e:
+  print('Falha na importação:', e)
+  
+!pip install -q pyttsx3
+!pip install -q pdfplumber
+!pip install -q PyPDF2==2.12.1
+!pip install -q googletrans==4.0.0-rc1
+!pip install -q Translator
+!pip install -q deep-translator
+
+import pyttsx3
+import pdfplumber
+import PyPDF2
+from deep_translator import GoogleTranslator
+from googletrans import Translator
+
+file = 'LePetitPrince.pdf'
+
+pdfFileObj = open(file, 'rb')
+pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+pages = pdfReader.numPages
+translator = Translator()
+with pdfplumber.open(file) as pdf:
+    for i in range(4, pages):
+        page = pdf.pages[i]
+        text = page.extract_text()
+        # Verifica se o texto não está vazio ou None
+        if text and text.strip():
+            try:
+                translation = GoogleTranslator(source='auto', target='pt').translate(text)
+                print(translation)
+                speaker = pyttsx3.init()
+                speaker.say(translation)
+                speaker.runAndWait()
+            except Exception as e:
+                print(f"Erro durante a tradução: {e}")
