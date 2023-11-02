@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input('Entre 1ist number:'))\n",
+        "b = int(input('Entre 2nd number:'))\n",
+        "c = int(input('Entre 3nd number:'))\n",
+        "d = int(input('Entre 4nd number:'))\n",
+        "e = int(input('Entre 5nd number:'))\n",
+        "\n",
+        "if (a>b):\n",
+        " print(a+b)\n",
+        "\n",
+        "else:\n",
+        " print(a*b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UbanJo1I997v",
+        "outputId": "bd0008d1-1af2-422a-f127-5239c8af99ed"
+      },
+      "execution_count": 65,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Entre 1ist number:2\n",
+            "Entre 2nd number:3\n",
+            "Entre 3nd number:4\n",
+            "Entre 4nd number:5\n",
+            "Entre 5nd number:6\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marcas = ['Audi','BMW','Chevrolet','Ford']\n",
+        "for carros in marcas:\n",
+        "  print(carros)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S92NWws8_UtV",
+        "outputId": "915ee509-dc3c-4ffc-89b7-7b7b2680cec7"
+      },
+      "execution_count": 95,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Audi\n",
+            "BMW\n",
+            "Chevrolet\n",
+            "Ford\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
