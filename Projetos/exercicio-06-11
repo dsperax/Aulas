@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VaN0VNpC9Ujb",
+        "outputId": "39c607cd-c458-40e5-e256-e15cecbcfb9d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "altura: 18,nome: rayssa,salario: 100.18\n"
+          ]
+        }
+      ],
+      "source": [
+        "altura = 18\n",
+        "nome = \"rayssa\"\n",
+        "salario = 100.18\n",
+        "recado = f\"altura: {altura},nome: {nome},salario: {salario}\"\n",
+        "print(recado)\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "string = \"senha\"\n",
+        "numero = 10\n",
+        "\n",
+        "print(string*numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mOAPl3Vl9daW",
+        "outputId": "648ea523-c334-4e90-eede-0a1b6b6c5aae"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "senhasenhasenhasenhasenhasenhasenhasenhasenhasenha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor=75.0\n",
+        "recado=f\" valor da carne é {valor}\"\n",
+        "print(recado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8HKQOVrd9efV",
+        "outputId": "9db87042-c130-41a9-fd01-1a4e97df56cd"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " valor da carne é 75.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"string1\" \"rayssa\"\n",
+        "\"string2\" \"tafnes\"\n",
+        "\"string3\" \"caio\"\n",
+        "float=\"r\"\"t\"\"C\"\n",
+        "\n",
+        "print(string)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p32DqFvC_F5r",
+        "outputId": "05e07632-3e14-41ec-ade6-716dc08843bc"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lista_de_strings\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
