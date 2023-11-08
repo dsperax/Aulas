@@ -1,0 +1,263 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-CIiEJGi5IDy",
+        "outputId": "976ba664-903b-41c7-bc0b-dc645e7ee329"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n",
+            "15\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 5\n",
+        "b = 10\n",
+        "c = 15\n",
+        "\n",
+        "print(c)\n",
+        "\n",
+        "c = (a + b)\n",
+        "\n",
+        "print(c)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"Oii\"\n",
+        "b = \" como voce ta ?\"\n",
+        "c = \" Eu to bem\"\n",
+        "\n",
+        "print(c)\n",
+        "\n",
+        "c = (a + b)\n",
+        "\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zrOlRk9G7iDj",
+        "outputId": "d25b581e-4c40-4a63-a026-b466520eaead"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " Eu to bem\n",
+            "Oii como voce ta ?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 2\n",
+        "b = 2\n",
+        "c = 3\n",
+        "\n",
+        "print(a == b)\n",
+        "\n",
+        "print(a == c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tICLD8tD-MYf",
+        "outputId": "9a522fd6-c18e-433d-8e7b-c66a85ed974e"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 2\n",
+        "b = 2\n",
+        "c = 3\n",
+        "\n",
+        "print(a != b)\n",
+        "\n",
+        "print(a != c)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iDlw98LK-ltA",
+        "outputId": "1105009a-8aa9-4b7e-c4dd-da7a001d6295"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"2\"\n",
+        "b = 2\n",
+        "c = 3\n",
+        "\n",
+        "print(a == b)\n",
+        "\n",
+        "print(a == c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Awyc-hQq-9Xl",
+        "outputId": "63c30179-5247-46f7-f7bd-c15b136fa11d"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Carro = ('Chevrolet')\n",
+        "\n",
+        "loja_de_carros = ('Chevrolet', 'Ford', 'Toyota')\n",
+        "\n",
+        "if Carro in loja_de_carros: {\"Tem na loja_de_carros\"}\n",
+        "\n",
+        "print(\"Tem na loja_de_carros\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "blnx5yB5HnFJ",
+        "outputId": "946763d7-6e43-4606-a1af-576804bed1b6"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tem na loja_de_carros\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Geladeira_1 = ('Salada de Frutas')\n",
+        "\n",
+        "Geladeira_2 = ('Banana', 'Morango', 'Jabuticaba', 'Abacaxi')\n",
+        "\n",
+        "if Geladeira_1 in Geladeira_2: {\"Nao tem na Geladeira\"}\n",
+        "\n",
+        "print(\"Nao tem na Geladeira\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pkoARjklLCjs",
+        "outputId": "633d5048-2517-4293-c704-afc73ffb84b8"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nao tem na Geladeira\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 10\n",
+        "c = 15\n",
+        "\n",
+        "if a + b == c:\n",
+        "\n",
+        " print(a * c / b)\n",
+        "\n",
+        "else:\n",
+        "\n",
+        " print(a + b != c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tdV4UCVJNkmB",
+        "outputId": "845ce5b3-44db-474e-e3c7-ce47b9110b9d"
+      },
+      "execution_count": 62,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7.5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
